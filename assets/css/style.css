@@ -154,6 +154,7 @@ img {
 
 .nav__item {
     margin-bottom: var(--mb-4);
+    padding-left: 10%;
 }
 
 .nav__link {

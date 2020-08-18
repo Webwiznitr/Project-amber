@@ -154,6 +154,7 @@ img {
 
 .nav__item {
     margin-bottom: var(--mb-4);
+    padding-left: 10%;
 }
 
 .nav__link {
@@ -267,6 +268,7 @@ home__social {
 }
 
 .about__subtitle {
+    margin-top: 5%;
     margin-bottom: var(--mb-2);
 }
 
@@ -301,6 +303,10 @@ home__social {
 
 .projects__img img:hover {
     transform: scale(1.1);
+}
+
+.projects__button{
+    margin-top: 2%;
 }
 
 /*Footer*/

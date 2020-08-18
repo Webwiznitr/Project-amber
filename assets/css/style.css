@@ -223,7 +223,7 @@ img {
 }
 
 /*Social*/
-home__social {
+.home__social {
     display: flex;
     flex-direction: column;
 }
@@ -306,8 +306,20 @@ home__social {
 }
 
 .projects__button{
-    margin-top: 2%;
+    color: #ffffff;
+    display: inline-block;
+    background-color: var(--first-color);
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    
 }
+
+
+.projects__button:hover {
+    box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+}
+
 
 /*Footer*/
 .footer {

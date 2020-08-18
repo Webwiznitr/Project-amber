@@ -268,7 +268,6 @@ home__social {
 }
 
 .about__subtitle {
-    margin-top: 5%;
     margin-bottom: var(--mb-2);
 }
 
@@ -347,6 +346,7 @@ home__social {
     }
 
     .section-title {
+        padding-bottom: 2%;
         margin-bottom: var(--mb-6);
     }
 

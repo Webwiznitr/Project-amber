@@ -333,7 +333,7 @@ home__social {
     margin: 0 var(--mb-2);
 }
 .fa-heart{
-    color: red;
+    color: #a83f39;
 }
 /*Media Query*/
 @media screen and (min-width: 768px) {

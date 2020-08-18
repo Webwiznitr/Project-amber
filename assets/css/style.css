@@ -305,6 +305,10 @@ home__social {
     transform: scale(1.1);
 }
 
+.projects__button{
+    margin-top: 2%;
+}
+
 /*Footer*/
 .footer {
     background-color: var(--second-color);

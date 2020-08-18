@@ -305,9 +305,26 @@ img {
     transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 .projects__button {
     margin-top: 2%;
+=======
+.projects__button{
+    color: #ffffff;
+    display: inline-block;
+    background-color: var(--first-color);
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    
+>>>>>>> baa3372347d50ea39166783c821bc4e656c2053b
 }
+
+
+.projects__button:hover {
+    box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+}
+
 
 /*Footer*/
 .footer {

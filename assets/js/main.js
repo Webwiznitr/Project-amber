@@ -38,3 +38,21 @@ sr.reveal('.home__title', {});
 sr.reveal('.button', {delay: 200});
 sr.reveal('.home__img', {delay: 400});
 sr.reveal('.home__social-icon', {interval: 200});
+
+//Button Ripple effect
+ const buttons = document.querySelectorAll(".button", ".projects__button");
+ buttons.forEach(btn => {
+     btn.addEventListener('click', function(e){
+         let x = e.clientX - e.target.offsetLeft;
+         let y = e.clientY - e.target.offsetTop;
+         
+         let ripples = document.createElement('inline-block');
+         ripples.style.left = x + 'px';
+         ripples.style.top = y + 'px';
+         this.appendChild(ripples);
+         
+         setTimeout(() => {
+             ripples.remove()
+         },1000);
+     })
+ })

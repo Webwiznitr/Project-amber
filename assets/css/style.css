@@ -250,8 +250,9 @@ img {
 /*Buttons*/
 .button {
     display: inline-block;
-    background-color: var(--first-color);
+    background-image: linear-gradient(to right, #A515E5, #f446aa);
     color: #ffffff;
+    overflow: hidden;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
@@ -310,7 +311,8 @@ img {
     color: #ffffff;
     margin-top: 2%;
     display: inline-block;
-    background-color: var(--first-color);
+    background-image: linear-gradient(to right, #A515E5, #f446aa);
+    overflow: hidden;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
@@ -450,5 +452,30 @@ img {
 
     .home__img {
         right: 10%;
+    }
+}
+
+/*Ripple effect*/
+inline-block{
+    position: absolute;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius:  50%;
+    animation: animate 1s linear infinite;
+    
+}
+
+@keyframes animate
+{
+    0%{
+        width: 0px;
+        height: 0px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        opacity: 0.5;
     }
 }

@@ -442,6 +442,9 @@ img {
     .section-title {
         margin-bottom: 5%;
     }
+    .team__line{
+        visibility: hidden;
+    }
 }
 
 @media screen and (min-width: 1024px) {

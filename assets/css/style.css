@@ -205,22 +205,13 @@ img {
 }
 
 /*Home*/
-
-.hero{
-    background-color: #06101B;
-}
-
-.home{
+.home {
     height: calc(100vh - 3rem);
     row-gap: 1rem;
 }
 
 .home__data {
     align-self: center;
-}
-
-.home__data h1{
-    color: #fff;
 }
 
 .home__title {
@@ -243,7 +234,7 @@ img {
     width: max-content;
     margin-bottom: var(--mb-2);
     font-size: 1.5rem;
-    color: #fff;
+    color: var(--second-color);
 }
 
 .home__social-icon:hover {
@@ -274,8 +265,6 @@ img {
 }
 
 /*About Section*/
-
-
 .about__container {
     row-gap: 2rem;
     text-align: center;
@@ -298,17 +287,12 @@ img {
 /*Projects Section*/
 .projects {
     text-align: center;
-    background-color: #06101B;
 }
 
 .projects__container {
     row-gap: 2rem;
 }
 
-.projects p{
-    color: #fff;
-    padding: 10px;
-}
 .projects__img {
     box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
     border-radius: .5rem;
@@ -342,7 +326,6 @@ img {
 }
 
 /*Contact Form*/
-
 .contact__input {
     width: 100%;
     font-size: var(--normal-font-size);
@@ -543,7 +526,7 @@ img {
 .card-inner{
     text-align: center;
     padding: 24px 12px;
-    box-shadow: 0px 1px 16px rgba(177, 105, 239, 0.25);
+    box-shadow: 0px 1px 16px rgba(177, 105, 239, 0.15);
 }
 
 .card-inner h1{

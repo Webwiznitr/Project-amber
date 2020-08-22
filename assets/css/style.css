@@ -9,8 +9,7 @@
 /*Colors*/
 :root {
     --first-color: #A515E5;
-    /*--first-color: #507DFC;*/
-    --second-color: #0E2431;
+    --second-color: #06101B;
 }
 
 /*Typo*/
@@ -225,6 +224,12 @@ img {
 }
 
 /*Social*/
+.mem_social-icon{
+    color: black;
+}
+.mem_social-icon:hover{
+    color: var(--first-color);
+}
 .home__social {
     display: flex;
     flex-direction: column;

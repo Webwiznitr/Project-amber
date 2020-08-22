@@ -508,12 +508,6 @@ img {
     margin: 0 auto;
 }
 
-h1.title{
-    font-size: 3rem;
-    margin-top: 50px;
-    text-align: center;
-    font-weight: 500;
-}
 
 .card-wrap{
     display: flex;
@@ -532,7 +526,7 @@ h1.title{
 .card-inner{
     text-align: center;
     padding: 24px 12px;
-    box-shadow: 0px 1px 16px #eee;
+    box-shadow: 0px 1px 16px rgba(177, 105, 239, 0.15);
 }
 
 .card-inner h1{

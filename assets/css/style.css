@@ -496,11 +496,9 @@ img {
 
     /*Team Section*/
 
-
-
-    .home__img {
+   .home__img {
         right: 10%;
-    }
+   }
 }
 
 
@@ -511,10 +509,10 @@ img {
 }
 
 h1.title{
-    font-size: 54px;
+    font-size: 3rem;
     margin-top: 50px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .card-wrap{

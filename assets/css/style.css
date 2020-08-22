@@ -126,7 +126,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: #06101B;
     box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
 }
 
@@ -155,6 +155,7 @@ img {
 .nav__item {
     margin-bottom: 5px;
     padding-left: 10%;
+    color: #fff !important;
 }
 
 .nav__link {
@@ -186,6 +187,7 @@ img {
     font-size: 2rem;
     cursor: pointer;
 }
+
 
 /*Active Menu*/
 .active:after {

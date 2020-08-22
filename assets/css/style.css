@@ -570,7 +570,9 @@ img {
     border-radius: 50%;
     width: 200px;
 }
-
+.user img{
+    width: 200px;
+}
 
 
 @media screen and (max-width:1200px){

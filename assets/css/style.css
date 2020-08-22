@@ -178,12 +178,12 @@ img {
 }
 
 .nav__logo {
-    color: var(--second-color);
+    color: #ffffff;
     font-size: 1.5rem;
 }
 
 .nav__toggle {
-    color: var(--second-color);
+    color: #ffffff;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -442,7 +442,7 @@ img {
     }
 
     .nav__link {
-        color: var(--second-color);
+        color: #ffffff;
     }
 
     .home {

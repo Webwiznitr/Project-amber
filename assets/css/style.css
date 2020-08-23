@@ -494,8 +494,12 @@ img {
         margin: 0 0 0 5%;
     }
     
-    .about{
-        margin-left: -6%;
+    .about {
+        margin-left: -5.2%;
+    }
+    
+    .about p{
+        text-align: center !important;
     }
 
     .nav__logo {
@@ -524,9 +528,14 @@ img {
     }
 }
 
+.about p, h2{
+    margin-left: 5%;
+}
+
+/* Team Section */
 .team-section {
     background-color: #06101B;
-    margin-left: -6%;
+    margin-left: -5.2%;
 }
 
 .member__title{
@@ -635,3 +644,4 @@ img {
         margin: 0 auto;
     }
 }
+

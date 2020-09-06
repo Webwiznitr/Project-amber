@@ -1,4 +1,4 @@
-## Currently Accessible at: [webwiznitr.xyz](https://webwiznitr.xyz); [webwiznitr.github.io](https://webwiznitr.github.io/); [webwiznitr.netlify.app](https://webwiznitr.netlify.app)
+## Currently Accessible at: [www.webwiznitr.xyz](https://www.webwiznitr.xyz); [webwiznitr.github.io](https://webwiznitr.github.io/); [webwiznitr.netlify.app](https://webwiznitr.netlify.app)
 Deployed with [Netlify](https://netlify.app)
 # Web Wiz Portfolio
 Web Wiz, The Web Development Club of [NIT Rourkela](https://nitrkl.ac.in/)

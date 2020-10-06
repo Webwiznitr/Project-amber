@@ -143,6 +143,11 @@ img {
     font-weight: var(--font-semi);
 }
 
+.nav__menu {
+    position: absolute;
+    right: 11rem;
+}
+
 @media screen and (max-width: 768px) {
     .nav__menu {
         position: fixed;
@@ -546,7 +551,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .bd-grid {
         margin-left: auto;
         margin-right: auto;

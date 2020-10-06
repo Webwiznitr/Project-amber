@@ -1,259 +1,379 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--    Favicon-->
-    <link rel="icon" href="assets/img/logo.png" type="image/png" sizes="16x16">
+    <link
+      rel="icon"
+      href="assets/img/logo.png"
+      type="image/png"
+      sizes="16x16"
+    />
 
     <!--    Font Awesome-->
-    <script src="https://kit.fontawesome.com/0c0f504817.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0c0f504817.js"
+      crossorigin="anonymous"
+    ></script>
     <!--Scroll Reveal Animation-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--    custom style-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <title>Web Wiz Portfolio</title>
-</head>
+  </head>
 
-<body>
-<header class="l-header">
-    <nav class="nav bd-grid">
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
         <div>
-            <a href="#" class="nav__logo">WEB WIZ</a>
+          <a href="#" class="nav__logo">WEB WIZ</a>
         </div>
         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link active">HOME</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">ABOUT</a></li>
-                <li class="nav__item"><a href="#projects" class="nav__link">PROJECTS</a></li>
-                <li class="nav__item"><a href="#team" class="nav__link">TEAM</a></li>
-                <li class="nav__item"><a href="#contact" class="nav__link">CONTACT</a></li>
-                <li class="nav__darkmodebtn"><button id="darkmodebtn"><i class="fas fa-moon" id="toogle"></i></button></li>
-            </ul>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">ABOUT</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">PROJECTS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#team" class="nav__link">TEAM</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">CONTACT</a>
+            </li>
+            <li class="nav__darkmodebtn">
+              <button id="darkmodebtn" class="mr-auto">
+                <i class="fas fa-moon" id="toogle"></i>
+              </button>
+            </li>
+          </ul>
         </div>
 
         <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-menu'></i>
+          <i class="bx bx-menu"></i>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main class="l-main">
-    <section class="home bd-grid" id="home">
+    <main class="l-main">
+      <section class="home bd-grid" id="home">
         <div class="home__data">
-            <h1 class="home__title" id="home__title"><span class="home__title-color">WEB WIZ</span><br>The Web Development <br> Club</h1>
-            <a href="#" class="button">View Projects</a>
+          <h1 class="home__title" id="home__title">
+            <span class="home__title-color">WEB WIZ</span><br />The Web
+            Development <br />
+            Club
+          </h1>
+          <a href="#" class="button">View Projects</a>
         </div>
         <div class="home__social">
-            <a href="#" class="home__social-icon"><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a>
-            <a href="https://instagram.com/webwiz.nitr" class="home__social-icon"><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a>
-            <a href="https://github.com/Webwiznitr" class="home__social-icon"><i class="fab fa-github"></i>&nbsp;&nbsp;</a>
+          <a href="#" class="home__social-icon"
+            ><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a
+          >
+          <a href="https://instagram.com/webwiz.nitr" class="home__social-icon"
+            ><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a
+          >
+          <a href="https://github.com/Webwiznitr" class="home__social-icon"
+            ><i class="fab fa-github"></i>&nbsp;&nbsp;</a
+          >
         </div>
 
         <div class="home__img">
-            <img src="assets/img/front-vector.png" alt="First Image">
+          <img src="assets/img/front-vector.png" alt="First Image" />
         </div>
-    </section>
-    <!--    About Section-->
-    <section class="about section" id="about">
+      </section>
+      <!--    About Section-->
+      <section class="about section" id="about">
         <h2 class="section-title">About</h2>
 
         <div class="about__container bd-grid">
-            <div class="about__img">
-                <img src="assets/img/logo.png" alt="About Image">
-            </div>
+          <div class="about__img">
+            <img src="assets/img/logo.png" alt="About Image" />
+          </div>
 
-            <div>
-                <h2 class="about__subtitle">Nothing is perfect,but your website can be.</h2>
-                <p class="about__text">The technology world paces so quickly that each change accelerates the next step.
-                    Web technology
-                    is mushrooming everywhere and getting only enormous. There are a huge number of tools available
-                    and infinite methods of dealing with them without there being a concise and fast-track approach
-                    in understanding all its nuance.</p><br>
-                <h1>&nbsp;</h1>
-                <p>We at WebWiz, aspire to meet all your web development needs at your fingertips. We take pride in
-                    not just being able to deliver quality work before deadlines but also in going the extra mile
-                    for curating your personalized website wherever and whenever there is scope. We make sure that
-                    the best design and technical challenges are in tandem so that the website owns an exquisite
-                    front while being swift and intelligible simultaneously.</p>
-            </div>
+          <div>
+            <h2 class="about__subtitle">
+              Nothing is perfect,but your website can be.
+            </h2>
+            <p class="about__text">
+              The technology world paces so quickly that each change accelerates
+              the next step. Web technology is mushrooming everywhere and
+              getting only enormous. There are a huge number of tools available
+              and infinite methods of dealing with them without there being a
+              concise and fast-track approach in understanding all its nuance.
+            </p>
+            <br />
+            <h1>&nbsp;</h1>
+            <p>
+              We at WebWiz, aspire to meet all your web development needs at
+              your fingertips. We take pride in not just being able to deliver
+              quality work before deadlines but also in going the extra mile for
+              curating your personalized website wherever and whenever there is
+              scope. We make sure that the best design and technical challenges
+              are in tandem so that the website owns an exquisite front while
+              being swift and intelligible simultaneously.
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!--    Projects Section-->
-    <section class="projects section" id="projects">
+      <!--    Projects Section-->
+      <section class="projects section" id="projects">
         <h2 class="section-title">Projects by our Members</h2>
-        <p style="margin-top: -1%;">Websites made by our members both individually and as a team</p><br>
+        <p style="margin-top: -1%">
+          Websites made by our members both individually and as a team
+        </p>
+        <br />
         <div class="projects__container bd-grid">
-            <div class="projects__img">
-                <a href="https://studyiit.team/" target="_blank"> <img src="assets/img/iit.png" alt="projects"></a>
-            </div>
-            <div class="projects__img">
-                <a href="https://delishdilemma.com/" target="_blank"><img src="assets/img/delishdilemma.png"
-                                                                          alt="projects"></a>
-            </div>
-            <div class="projects__img">
-                <a href="https://learningpeeps.com/" target="_blank"><img src="assets/img/learningpeeps.png"
-                                                                          alt="projects"></a>
-            </div>
-            <div class="projects__img">
-                <a href="https://orsidgp.in" target="_blank"><img src="assets/img/orsi_home.png" alt="projects"></a>
-            </div>
-            <div class="projects__img">
-                <a href="https://helpingdude.com/" target="_blank"><img src="assets/img/helpingdude.png" alt="projects"></a>
-            </div>
-            <div class="projects__img">
-                <a href="https://magicalbites.wordpress.com/" target="_blank"><img src="assets/img/magicalbites.png"
-                                                                                   alt="projects"></a>
-            </div>
-            <br>
-            <div>
-                <a href="projects.html" class="projects__button">View All Projects</a>
-            </div>
+          <div class="projects__img">
+            <a href="https://studyiit.team/" target="_blank">
+              <img src="assets/img/iit.png" alt="projects"
+            /></a>
+          </div>
+          <div class="projects__img">
+            <a href="https://delishdilemma.com/" target="_blank"
+              ><img src="assets/img/delishdilemma.png" alt="projects"
+            /></a>
+          </div>
+          <div class="projects__img">
+            <a href="https://learningpeeps.com/" target="_blank"
+              ><img src="assets/img/learningpeeps.png" alt="projects"
+            /></a>
+          </div>
+          <div class="projects__img">
+            <a href="https://orsidgp.in" target="_blank"
+              ><img src="assets/img/orsi_home.png" alt="projects"
+            /></a>
+          </div>
+          <div class="projects__img">
+            <a href="https://helpingdude.com/" target="_blank"
+              ><img src="assets/img/helpingdude.png" alt="projects"
+            /></a>
+          </div>
+          <div class="projects__img">
+            <a href="https://magicalbites.wordpress.com/" target="_blank"
+              ><img src="assets/img/magicalbites.png" alt="projects"
+            /></a>
+          </div>
+          <br />
+          <div>
+            <a href="projects.html" class="projects__button"
+              >View All Projects</a
+            >
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!--Team-->
-    <section class="team-section" id="team">
+      <!--Team-->
+      <section class="team-section" id="team">
         <div class="container">
-            <h1 class="section-title">Current Postholders</h1>
-            <div class="card-wrap">
-                <div class="card-column">
-                    <div class="card-inner">
-                        <div class="member">
-                            <center><img src="assets/img/sayna.jpg" alt=""></center>
-                        </div>
-                        <div class="member-info">
-                            <h1 class="member__title">Sayna Parida</h1>
-                            <span>(Vice-President)</span>
-                            <div class="social">
-                                <a href="#" class="mem_social-icon"><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a>
-                                <a href="#" class="mem_social-icon"><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a>
-                                <a href="https://github.com/sayna3311" class="mem_social-icon"><i class="fab fa-github"></i>&nbsp;&nbsp;</a>
-
-                            </div>
-                        </div>
-                    </div>
+          <h1 class="section-title">Current Postholders</h1>
+          <div class="card-wrap">
+            <div class="card-column">
+              <div class="card-inner">
+                <div class="member">
+                  <center><img src="assets/img/sayna.jpg" alt="" /></center>
                 </div>
-                <div class="card-column">
-                    <div class="card-inner">
-                        <div class="member">
-                            <center><img src="assets/img/aniket.jpg" alt=""></center>
-                        </div>
-                        <div class="member-info">
-                            <h1 class="member__title">Aniket Pal</h1>
-                            <span>(President)</span>
-                            <div class="social">
-                                <a href="#" class="mem_social-icon"><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a>
-                                <a href="https://www.instagram.com/itzaniket_762" class="mem_social-icon"><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a>
-                                <a href="https://github.com/Aniket762" class="mem_social-icon"><i class="fab fa-github"></i>&nbsp;&nbsp;</a>
-
-                            </div>
-                        </div>
-                    </div>
+                <div class="member-info">
+                  <h1 class="member__title">Sayna Parida</h1>
+                  <span>(Vice-President)</span>
+                  <div class="social">
+                    <a href="#" class="mem_social-icon"
+                      ><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a
+                    >
+                    <a href="#" class="mem_social-icon"
+                      ><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a
+                    >
+                    <a
+                      href="https://github.com/sayna3311"
+                      class="mem_social-icon"
+                      ><i class="fab fa-github"></i>&nbsp;&nbsp;</a
+                    >
+                  </div>
                 </div>
-                <div class="card-column">
-                    <div class="card-inner">
-                        <div class="member">
-                            <center><img src="assets/img/sumana.jpg" alt=""></center>
-                        </div>
-                        <div class="member-info">
-                            <h1 class="member__title">Sumana Basu</h1>
-                            <span>(Coordinator)</span>
-                            <div class="social">
-                                <a href="#" class="mem_social-icon"><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a>
-                                <a href="https://www.instagram.com/sumana_09_" class="mem_social-icon"><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a>
-                                <a href="https://github.com/sumana2001" class="mem_social-icon"><i class="fab fa-github"></i>&nbsp;&nbsp;</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-column">
-                    <div class="card-inner">
-                        <div class="member">
-                            <center><img src="assets/img/abhibhaw.png" alt=""></center>
-                        </div>
-                        <div class="member-info">
-                            <h1 class="member__title">Abhibhaw Asthana</h1>
-                            <span>(Technical Head)</span>
-                            <div class="social">
-                                <a href="https://abhibhaw.team" class="mem_social-icon"><i class="fas fa-globe"></i>&nbsp;&nbsp;</a>
-                                <a href="https://www.instagram.com/imabhibhaw" class="mem_social-icon"><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a>
-                                <a href="https://github.com/abhibhaw" class="mem_social-icon"><i class="fab fa-github"></i>&nbsp;&nbsp;</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-column">
-                    <div class="card-inner">
-                        <div class="member">
-                            <center><img src="assets/img/nikita.jpg" alt=""></center>
-                        </div>
-                        <div class="member-info">
-                            <h1 class="member__title">Nikita Thakur</h1>
-                            <span>(Content-Head)</span>
-                            <div class="social">
-                                <a href="#" class="mem_social-icon"><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a>
-                                <a href="#" class="mem_social-icon"><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a>
-                                <a href="#" class="mem_social-icon"><i class="fab fa-github"></i>&nbsp;&nbsp;</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-column">
-                    <div class="card-inner">
-                        <div class="user">
-                            <center><img src="assets/img/user.png"></center>
-                        </div>
-                        <div class="member-info">
-                            <h1>Team Web Wiz</h1>
-
-                            <div class="social">
-                                <a href="#" class="projects__button">More Members</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="card-column">
+              <div class="card-inner">
+                <div class="member">
+                  <center><img src="assets/img/aniket.jpg" alt="" /></center>
+                </div>
+                <div class="member-info">
+                  <h1 class="member__title">Aniket Pal</h1>
+                  <span>(President)</span>
+                  <div class="social">
+                    <a href="#" class="mem_social-icon"
+                      ><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a
+                    >
+                    <a
+                      href="https://www.instagram.com/itzaniket_762"
+                      class="mem_social-icon"
+                      ><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a
+                    >
+                    <a
+                      href="https://github.com/Aniket762"
+                      class="mem_social-icon"
+                      ><i class="fab fa-github"></i>&nbsp;&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column">
+              <div class="card-inner">
+                <div class="member">
+                  <center><img src="assets/img/sumana.jpg" alt="" /></center>
+                </div>
+                <div class="member-info">
+                  <h1 class="member__title">Sumana Basu</h1>
+                  <span>(Coordinator)</span>
+                  <div class="social">
+                    <a href="#" class="mem_social-icon"
+                      ><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a
+                    >
+                    <a
+                      href="https://www.instagram.com/sumana_09_"
+                      class="mem_social-icon"
+                      ><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a
+                    >
+                    <a
+                      href="https://github.com/sumana2001"
+                      class="mem_social-icon"
+                      ><i class="fab fa-github"></i>&nbsp;&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column">
+              <div class="card-inner">
+                <div class="member">
+                  <center><img src="assets/img/abhibhaw.png" alt="" /></center>
+                </div>
+                <div class="member-info">
+                  <h1 class="member__title">Abhibhaw Asthana</h1>
+                  <span>(Technical Head)</span>
+                  <div class="social">
+                    <a href="https://abhibhaw.team" class="mem_social-icon"
+                      ><i class="fas fa-globe"></i>&nbsp;&nbsp;</a
+                    >
+                    <a
+                      href="https://www.instagram.com/imabhibhaw"
+                      class="mem_social-icon"
+                      ><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a
+                    >
+                    <a
+                      href="https://github.com/abhibhaw"
+                      class="mem_social-icon"
+                      ><i class="fab fa-github"></i>&nbsp;&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column">
+              <div class="card-inner">
+                <div class="member">
+                  <center><img src="assets/img/nikita.jpg" alt="" /></center>
+                </div>
+                <div class="member-info">
+                  <h1 class="member__title">Nikita Thakur</h1>
+                  <span>(Content-Head)</span>
+                  <div class="social">
+                    <a href="#" class="mem_social-icon"
+                      ><i class="fab fa-facebook"></i>&nbsp;&nbsp;</a
+                    >
+                    <a href="#" class="mem_social-icon"
+                      ><i class="fab fa-instagram"></i>&nbsp;&nbsp;</a
+                    >
+                    <a href="#" class="mem_social-icon"
+                      ><i class="fab fa-github"></i>&nbsp;&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-column">
+              <div class="card-inner">
+                <div class="user">
+                  <center><img src="assets/img/user.png" /></center>
+                </div>
+                <div class="member-info">
+                  <h1>Team Web Wiz</h1>
+
+                  <div class="social">
+                    <a href="#" class="projects__button">More Members</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <!--    Contact Us-->
-    <section class="contact section" id="contact">
+      </section>
+      <!--    Contact Us-->
+      <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
         <blockquote class="contact-subheading">Get in touch</blockquote>
         <div class="contact__container bd-grid">
-            <form action="" class="contact__form">
-                <input type="text" placeholder="Name" class="contact__input">
-                <input type="mail" placeholder="Email" class="contact__input">
-                <textarea name="message" placeholder="Do you wanna say something?" id="message" cols="0" rows="10"
-                          class="contact__input"></textarea>
-                <input type="button" value="Submit" class="contact__button projects__button">
-            </form>
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name="message"
+              placeholder="Do you wanna say something?"
+              id="message"
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Submit"
+              class="contact__button projects__button"
+            />
+          </form>
         </div>
-    </section>
-</main>
+      </section>
+    </main>
 
-<!--Footer-->
-<footer class="footer">
-    <div class="footer__social">
-        <a href="#" class="footer__icon"><i class="fab fa-facebook"></i>&nbsp;</a>
-        <a href="https://instagram.com/webwiz.nitr" class="footer__icon"><i class="fab fa-instagram"></i>&nbsp;</a>
-        <a href="https://twitter.com/webwiznitr" class="footer__icon"><i class="fab fa-twitter"></i>&nbsp;</a>
-        <a href="https://www.linkedin.com/company/webwiz-nitr" class="footer__icon"><i class="fab fa-linkedin"></i>&nbsp;</a>
-        <a href="https://github.com/Webwiznitr" class="footer__icon"><i class="fab fa-github"></i>&nbsp;</a>
-    </div>
-    <p>Copyright &#169; 2020 | Designed with <i class="fas fa-heart"></i> by Web Wiz.</p>
-</footer>
-<!-- Optional JavaScript -->
-<script src="assets/js/main.js"></script>
-</body>
-
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="#" class="footer__icon"
+          ><i class="fab fa-facebook"></i>&nbsp;</a
+        >
+        <a href="https://instagram.com/webwiz.nitr" class="footer__icon"
+          ><i class="fab fa-instagram"></i>&nbsp;</a
+        >
+        <a href="https://twitter.com/webwiznitr" class="footer__icon"
+          ><i class="fab fa-twitter"></i>&nbsp;</a
+        >
+        <a
+          href="https://www.linkedin.com/company/webwiz-nitr"
+          class="footer__icon"
+          ><i class="fab fa-linkedin"></i>&nbsp;</a
+        >
+        <a href="https://github.com/Webwiznitr" class="footer__icon"
+          ><i class="fab fa-github"></i>&nbsp;</a
+        >
+      </div>
+      <p>
+        Copyright &#169; 2020 | Designed with <i class="fas fa-heart"></i> by
+        Web Wiz.
+      </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

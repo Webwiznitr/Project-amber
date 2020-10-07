@@ -40,6 +40,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "RajSolai",
+      "name": "Solai Raj",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54436424?v=4",
+      "profile": "http://solairaj.rf.gd/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

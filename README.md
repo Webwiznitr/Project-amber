@@ -1,6 +1,41 @@
-## Currently Accessible at: [www.webwiznitr.xyz](https://www.webwiznitr.xyz); [webwiznitr.github.io](https://webwiznitr.github.io/); [webwiznitr.netlify.app](https://webwiznitr.netlify.app)
-Deployed with [Netlify](https://netlify.app)
-# Web Wiz Portfolio
-Web Wiz, The Web Development Club of [NIT Rourkela](https://nitrkl.ac.in/)
-# Contributing Guidlines
-We are open to suggestions, bug-reporting and features! We would love to see you contribute but make sure you follow our [Contributing Guidelines.](CONTRIBUTING.md)
+# Project amber
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+**Official portfolio of webwiz**
+
+### We are really excited to see your awesome PRs.
+
+`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
+
+# Ways to contribute:
+1. Solve the issues which are listed
+2. Create your own issue and then send PR.
+
+Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+NOTE 1: Please abide by the [Contributing Guidelines](https://github.com/Webwiznitr/MilkERP/blob/master/CONTRIBUTING.md).
+
+NOTE 2: Please abide by the [Code of Conduct](https://github.com/Webwiznitr/MilkERP/blob/master/CODE_OF_CONDUCT.md).
+
+<br>
+
+### The whole project will be created on basic html, css and javascript so beginners can also contribute.
+ 
+
+
+
+
+
+
+

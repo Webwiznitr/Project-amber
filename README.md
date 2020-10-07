@@ -11,7 +11,7 @@
 
 **Official portfolio of webwiz**
 
-### We are really excited to see your awesome PRs.
+#### We are really excited to see your awesome PRs.
 
 `Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
 
@@ -33,7 +33,7 @@ NOTE 2: Please abide by the [Code of Conduct](https://github.com/Webwiznitr/Milk
 
 <br>
 
-### The whole project will be created on basic html, css and javascript so beginners can also contribute.
+**The whole project will be created on basic html, css and javascript so beginners can also contribute.**
  
 
 

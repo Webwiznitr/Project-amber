@@ -283,6 +283,8 @@ img {
 
 .button:hover {
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px) scale(1.20) translateZ(5);
+    background-color: #3d5cff;
 }
 
 /*About Section*/
@@ -422,7 +424,7 @@ img {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, 
+    transition: background-color .3s,
       opacity .5s, visibility .5s;
     z-index: var(--z-fixed);
   }

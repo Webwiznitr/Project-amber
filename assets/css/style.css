@@ -424,6 +424,7 @@ img {
     right: 30px;
     transition: background-color .3s, 
       opacity .5s, visibility .5s;
+    display: none;
     z-index: var(--z-fixed);
   }
   #back-to-top-button::after {

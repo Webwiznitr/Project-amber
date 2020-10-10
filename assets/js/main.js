@@ -129,3 +129,15 @@ sr.reveal(".home__title", {});
 sr.reveal(".button", { delay: 200 });
 sr.reveal(".home__img", { delay: 400 });
 sr.reveal(".home__social-icon", { interval: 200 });
+
+//Scroll To Top Button JS
+window.onscroll = function () { addClassFunc() };
+var h = window.innerHeight;
+
+function addClassFunc() {
+    if (document.body.scrollTop > h*0.2 || document.documentElement.scrollTop > (h*0.1)) {
+        document.getElementById("back-to-top-button").style.display = "block";
+    } else {
+        document.getElementById("back-to-top-button").style.display = "none";
+    }
+}
